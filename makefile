@@ -8,4 +8,4 @@ all:${OBJ}
 	${CC} ${CFLAGS} ${INCLUDES} -o $@ ${OBJS} ${LIBS}
 
 clean:
-	-rm -f *.o core *.core
+	-rm -f *.o core *.core all
